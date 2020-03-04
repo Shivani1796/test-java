@@ -25,6 +25,7 @@ It is used for:
 
 
 ## Hello World using Java Programming.
+
 Let's create our first Java file, called MyFirstJavaProgram.java, which can be done in any text editor (like Notepad).
 In Java, every application begins with a class name, and that class must match the filename.The file should contain a "Hello World" message, which is written with the following code:
 
@@ -51,12 +52,14 @@ OUTPUT :
 Every line of code that runs in Java must be inside a class. In our example, we named the class MyFirstJavaProgram . A class should always start with an uppercase first letter.
 
 **Note: Java is case-sensitive: "MyFirstJavaProgram" and "myFirstJavaProgram" has different meaning.**
+
 The name of the java file must match the class name. When saving the file, save it using the class name and add ".java" to the end of the filename. 
 
 ### The main Method
 The main() method is required and you will see it in every Java program:
 
     public static void main(String[] args)
+    
 Any code inside the main() method will be executed.For now, just remember that every Java program has a class name which must match the filename, and that every program must contain the main() method.
 
 ### System.out.println()
@@ -68,8 +71,36 @@ Inside the main() method, we can use the println() method to print a line of tex
 
 
 **Note:**
-**1) The curly braces {} marks the beginning and the end of a block of code.**
+
+**1) The curly braces { } marks the beginning and the end of a block of code.**
+
 **2) Each code statement must end with a semicolon.**
+
+### Java Comments
+Comments can be used to explain Java code, and to make it more readable. It can also be used to prevent execution when testing alternative code.
+Single-line comments start with two forward slashes (//).
+Any text between // and the end of the line is ignored by Java (will not be executed).
+This example uses a single-line comment before a line of code:
+
+    // This is a comment
+    System.out.println("Hello World");
+    
+ ### Java Multi-line Comments
+Multi-line comments start with /* and ends with */.
+Any text between /* and */ will be ignored by Java.
+This example uses a multi-line comment (a comment block) to explain the code:
+
+    /* The code below will print the words Hello World
+    to the screen, and it is amazing */
+    System.out.println("Hello World");
+    
+    
+
+ 
+
+
+
+
 
  
 
