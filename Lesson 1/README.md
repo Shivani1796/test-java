@@ -1,13 +1,13 @@
+This lesson contains list of things :
+* What is Java 
+* Why Use Java
+* Hello World using Java Programming
+*  Java Syntax 
+
+
 ## What is Java?
 Java is a high-level programming language originally developed by Sun Microsystems and released in 1995.Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX. 
-It is used for:
-- Mobile applications (specially Android apps)
-- Desktop applications
-- Web applications
-- Web servers and application servers
-- Games
-- Database connection
-- And much, much more!
+
 
 ## Why Use Java?
 
