@@ -11,9 +11,20 @@ It is used for:
 
 ## Why Use Java?
 
-- It is one of the most popular programming language in the world
-- It is easy to learn and simple to use
-- It is open-source and free
-- It is secure, fast and powerful
-- It has a huge community support (tens of millions of developers)
-- Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs
+*Object Oriented* − In Java, everything is an Object. Java can be easily extended since it is based on the Object model.
+
+*Platform Independent* − Unlike many other programming languages including C and C++, when Java is compiled, it is not compiled into platform specific machine, rather into platform independent byte code. This byte code is distributed over the web and interpreted by the Virtual Machine (JVM) on whichever platform it is being run on.
+
+*Simple* − Java is designed to be easy to learn. If you understand the basic concept of OOP Java, it would be easy to master.
+
+*Secure* − With Java's secure feature it enables to develop virus-free, tamper-free systems. Authentication techniques are based on public-key encryption.
+
+*Portable* − Being architecture-neutral and having no implementation dependent aspects of the specification makes Java portable. Compiler in Java is written in ANSI C with a clean portability boundary, which is a POSIX subset.
+
+*Robust* − Java makes an effort to eliminate error prone situations by emphasizing mainly on compile time error checking and runtime checking.
+
+
+
+
+
+
