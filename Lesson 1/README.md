@@ -31,19 +31,19 @@ Let's create our first Java file, called MyFirstJavaProgram.java, which can be d
 In Java, every application begins with a class name, and that class must match the filename.The file should contain a "Hello World" message, which is written with the following code:
 
 INPUT :
+```
+public class MyFirstJavaProgram {
 
-    public class MyFirstJavaProgram {
-
-     /* This is my first java program.
-    * This will print 'Hello World' as the output
+/* This is my first java program.
+* This will print 'Hello World' as the output
     */
 
-     public static void main(String []args) {
+public static void main(String []args) {
         System.out.println("Hello World"); // prints Hello World
       }
     }
 
-
+```
 OUTPUT :
  
     Hello World
