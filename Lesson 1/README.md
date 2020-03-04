@@ -1,5 +1,5 @@
 This lesson contains list of things :
-* [What is Java] (#What is Java)
+* [What is Java] (## What is Java)
 * [Why Use Java] (#Why Use Java)
 * [Hello World using Java Programming] (#Hello World using Java Programming)
 * [Java Syntax] (#Java Syntax)
