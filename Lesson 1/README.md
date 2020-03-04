@@ -24,7 +24,52 @@ It is used for:
 *Robust* − Java makes an effort to eliminate error prone situations by emphasizing mainly on compile time error checking and runtime checking.
 
 
+## Hello World using Java Programming.
+Let's create our first Java file, called MyFirstJavaProgram.java, which can be done in any text editor (like Notepad).
+In Java, every application begins with a class name, and that class must match the filename.The file should contain a "Hello World" message, which is written with the following code:
+
+INPUT :
+
+    public class MyFirstJavaProgram {
+
+     /* This is my first java program.
+    * This will print 'Hello World' as the output
+    */
+
+     public static void main(String []args) {
+        System.out.println("Hello World"); // prints Hello World
+      }
+    }
+
+
+OUTPUT :
+ 
+    Hello World
+  
+  
+## Java Syntax  
+Every line of code that runs in Java must be inside a class. In our example, we named the class MyFirstJavaProgram . A class should always start with an uppercase first letter.
+
+**Note: Java is case-sensitive: "MyFirstJavaProgram" and "myFirstJavaProgram" has different meaning.**
+The name of the java file must match the class name. When saving the file, save it using the class name and add ".java" to the end of the filename. 
+
+### The main Method
+The main() method is required and you will see it in every Java program:
+
+    public static void main(String[] args)
+Any code inside the main() method will be executed.For now, just remember that every Java program has a class name which must match the filename, and that every program must contain the main() method.
+
+### System.out.println()
+Inside the main() method, we can use the println() method to print a line of text to the screen:
+
+    public static void main(String []args) {
+        System.out.println("Hello World"); // prints Hello World
 
 
 
+**Note:**
+**1) The curly braces {} marks the beginning and the end of a block of code.**
+**2) Each code statement must end with a semicolon.**
+
+ 
 
